@@ -1,0 +1,11 @@
+cat,$func,1
+int,b0$i
+int,b0$sn
+int,b0$size
+int,$b0$i+sn
+int,$b0$i-sn
+int,$b0$i+size
+int,$b0$i-size
+int,$b0$sn+size
+int,$b0$sn-size
+

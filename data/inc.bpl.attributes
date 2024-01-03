@@ -1,0 +1,6 @@
+cat,$func,1
+int,b0$x
+int,b0$m
+int,$b0$x+m
+int,$b0$x-m
+

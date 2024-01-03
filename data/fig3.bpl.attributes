@@ -1,0 +1,11 @@
+cat,$func,1
+int,b0$x
+int,b0$y
+int,b0$lock
+int,$b0$x+y
+int,$b0$x-y
+int,$b0$x+lock
+int,$b0$x-lock
+int,$b0$y+lock
+int,$b0$y-lock
+
