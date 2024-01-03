@@ -1,4 +1,4 @@
-#--------------------------------------Learning from Implications-A Comparison of Different Classification Strategies--------------------------------------------------#
+
 DATASETS:
 
 This folder consists of two different datasets:
@@ -8,15 +8,15 @@ This folder consists of two different datasets:
 
 
 PROGRAM FILES:
-###################################################################################################################################################################################
+
 Inorder to run the implemented ICE learner, execute the program implication_classification_algorithm.R. The file implication_classification_algorithm.R need to be changed with
 desired .bpl program files. Rememeber to change the varibles "path", "attr_path", "implications_path" inside the program implication_classification_algorithm.R with desired program paths.
-####################################################################################################################################################################################
-THE ATTACHED FILES ARE ONLY COMPATIBLE WITH WINDOWS SYSTEMS. 
-############################################################################################################################################
 
+
+
+THE ATTACHED FILES ARE ONLY COMPATIBLE WITH WINDOWS SYSTEMS. 
 The main learning algorithm is written in file "implication_classification_algorithm.R". The implemented learner works along with various routines implemented in:
-a) best_fitted_implication.R : Selects the implication pair that is most confident
+a) best_fitted_implication.R : Selects the most confident implication pair
 b) build_tree: Used to build trees using rpart routine
 c) dfs_algorithm: The Boogie (verification tool) reads the file output which is decision tree in json format. This program helps with creation of the json file.
 d) json_tree: With the aid of dfs_algorithm, we convert the decision tree to json format
@@ -25,11 +25,8 @@ f) node_confidence: Evaluates the confidence of the node
 g) tree_output: This aids in building json tree
 
 
-######################################################################################################################################################################################
 REMEMBER: MODIFY THE DESIRED DATA OBSERVATION SIZE IN Random_dataset.R FILE
 The datasets for evaluating accuracy are generated using the file:
 Random_dataset.R
 
 FOR EXECUTING ALGORITHM WITH THESE FILES USE THE ATTRIBUTE FILE OF add.bpl (add.bpl.attributes)
-
-#######################################################################################################################################################################################
